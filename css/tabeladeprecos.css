@@ -199,7 +199,7 @@ footer {
 
 /* @media */
 
-@media (max-width: 390px) {
+@media (max-width: 414px) {
     #topo {
         width: 100%;
         display: flex;
