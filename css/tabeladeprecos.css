@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    transition: 10s;
+}
+
+header {
+    background-color: #2f86d6;
+}
+
+#topo {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo-container img {
+    width: 70px;
+    margin-right: 8px;
+}
+
+.title-logo-container {
+    line-height: 30px;
+}
+
+.title-logo-container h1 {
+    font-size: 32px;
+    color: #000;
+}
+
+.title-logo-container p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.navegation-container ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.navegation-container ul li {
+    list-style: none;
+}
+
+.navegation-container ul li a {
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    transition: .3s;
+}
+
+.navegation-container ul li a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+#plans-container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+#plans-container table {
+    margin: auto;
+}
+
+.celula-escondida {
+    visibility: hidden;
+}
+
+.celula-cabeçalho {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+    background-color: #f1f3f7;
+}
+
+.celula-cabeçalho p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #a8a4a4;
+}
+
+.celula-cabeçalho h2 {
+    font-size: 36px;
+}
+
+table tbody td {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+
+.primeira-celula {
+    background-color: #f1f3f7;
+    font-weight: 500;
+    text-align: left;
+}
+
+.marcador-azul {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100px;
+}
+
+footer {
+    background-color: #2f86d6;
+    position: relative;
+}
+
+#footer-container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 80px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-information {
+    text-align: center;
+    padding: 10px 0 60px 0;
+}
+
+.footer-information p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #fff;
+}
+
+.copy-paragrafo {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #eeeeee;
+}
+
+.copy-paragrafo span {
+    color: #2f86d6;
+}
+
+.link-up {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: #2f86d6;
+    transition: .4s;
+}
+
+.link-up:hover {
+    color: #23629c;
+    transform: scale(1.04);
+}
+
+.fa-solid {
+    font-size: 50px;
+    color: #2f86d6;
+    background-color: #ffffff;
+    border-radius: 50%;    
+}
+
+.fa-solid:hover {
+    color: #23629c;
+}
+
+/* @media */
+
+@media (max-width: 420px) {
+    #topo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navegation-container {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .navegation-container ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #plans-container {
+        width: 100%;
+        overflow: auto;
+        padding-bottom: 0;
+        margin-bottom: 80px;
+    }
+
+    #footer-container {
+        width: 100%;
+    }
+
+    .footer-information {
+        width: 84%;
+    }
+
+    footer {
+        position: relative;
+    }
+    .copy-paragrafo {
+        padding: 50px;        
+    }
+
+    .link-up {
+        position: absolute;
+        right: 130px;
+        bottom: 90px;
+    }
+}
