@@ -5,8 +5,8 @@ Foi desenvolvida no intuito de ajudar empresas e indivíduos a levar suas ideias
 <br>
 
 <div align=center>  
-    <img width=180px heigth=auto src="https://github.com/ericleirosario/calculador-imc/blob/master/img/mobile.png?raw=true" alt="Alfa Tech Mobile"/>
-    <img width=635px heigth=auto src="https://github.com/ericleirosario/calculador-imc/blob/master/img/desktop.png?raw=true" alt="Alfa Tech Desktop"/>  
+    <img width=180px heigth=auto src="https://github.com/ericleirosario/alfa-tech/blob/main/assets/mobile-alfa-tech.gif?raw=true" alt="Alfa Tech Mobile"/>
+    <img width=635px heigth=auto src="https://github.com/ericleirosario/alfa-tech/blob/main/assets/desktop-alfa-tech.gif?raw=true" alt="Alfa Tech Desktop"/>  
 </div>
 
 ## Principais Recursos do Website
